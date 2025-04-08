@@ -18,6 +18,17 @@ public class binaryConversion {
     }
 
     System.out.println(ans);
+
+    System.out.print("Enter a binary number : ");
+    int bn = sc.nextInt();
+    int decNum = 0, pw2 = 1;
+    while(bn > 0){
+      int rem = bn%10;
+      decNum += rem*pw2;
+      pw2 *= 2;
+      bn /= 10;
+    }
+    System.out.println(decNum);
     
 
     sc.close();
