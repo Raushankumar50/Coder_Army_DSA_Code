@@ -25,7 +25,7 @@ The aim is to build strong foundational knowledge for coding interviews and comp
 - Arrays
 - Strings
 - Sorting
-- Searching
+- Searching (Linear and Binary)
 
 ## 📦 Getting Started
 
