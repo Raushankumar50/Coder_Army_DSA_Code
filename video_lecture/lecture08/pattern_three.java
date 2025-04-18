@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class patternThree {
+class pattern_three {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     /*
