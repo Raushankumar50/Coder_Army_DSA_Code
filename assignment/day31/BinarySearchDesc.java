@@ -30,8 +30,9 @@ public class BinarySearchDesc {
       arr[i] = sc.nextInt();
     }
 
-    int target = sc.nextInt();
+    
     System.out.print("Enter the target element : ");
+    int target = sc.nextInt();
 
     int idx = binarySearch(arr, target, n);
     System.out.println(idx);
